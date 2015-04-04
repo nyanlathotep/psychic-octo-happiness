@@ -14,15 +14,15 @@ var acacia2 = <ExtrabiomesXL:planks:6>;
 var jungle1 = <ExtrabiomesXL:planks:5>;
 var jungle2 = <ExtrabiomesXL:planks:8>;
 
-var oak1_s = <ExtrabiomesXL:woodSlab:0>;
-var oak2_s = <ExtrabiomesXL:woodSlab:2>;
-var spruce_s = <ExtrabiomesXL:woodSlab:1>;
-var birch1_s = <ExtrabiomesXL:woodSlab:3>;
-var birch2_s = <ExtrabiomesXL:woodSlab:7>;
-var acacia1_s = <ExtrabiomesXL:woodSlab:4>;
-var acacia2_s = <ExtrabiomesXL:woodSlab:6>;
-var jungle1_s = <ExtrabiomesXL:woodSlab:5>;
-var jungle2_s = <ExtrabiomesXL:woodSlab2:0>;
+var oak1_s = <ExtrabiomesXL:woodslab:0>;
+var oak2_s = <ExtrabiomesXL:woodslab:2>;
+var spruce_s = <ExtrabiomesXL:woodslab:1>;
+var birch1_s = <ExtrabiomesXL:woodslab:3>;
+var birch2_s = <ExtrabiomesXL:woodslab:7>;
+var acacia1_s = <ExtrabiomesXL:woodslab:4>;
+var acacia2_s = <ExtrabiomesXL:woodslab:6>;
+var jungle1_s = <ExtrabiomesXL:woodslab:5>;
+var jungle2_s = <ExtrabiomesXL:woodslab2:0>;
 
 #######################
 ### storage drawers ###
