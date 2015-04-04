@@ -49,6 +49,9 @@ recipes.addShapeless(<harvestcraft:mapleoatmealItem> * 1, [<ore:toolMixingbowl>,
 recipes.remove(<harvestcraft:pamcandleDeco9>);
 recipes.addShapeless(<harvestcraft:pamcandleDeco9> * 4, [<ore:materialPressedwax>, <minecraft:string> * 1, <ore:dyeLightGray>]);
 
+# candleberry removal
+recipes.remove(<harvestcraft:candleberryItem> * 2);
+
 #########################
 ### duplicate recipes ###
 #########################
@@ -224,6 +227,10 @@ recipes.addShapeless(<harvestcraft:saltedsunflowerseedsItem> * 1, [<ore:cropSunf
 # beef jerky de-dupe
 recipes.remove(<harvestcraft:beefjerkyItem>);
 recipes.addShapeless(<harvestcraft:beefjerkyItem> * 1, [<ore:listAllbeefraw>, <ore:foodSalt>]);
+
+# cotton de-dupe
+recipes.remove(<harvestcraft:cottonItem> * 2);
+recipes.addShapeless(<harvestcraft:cottonItem> * 2, [<ore:cropCotton>, <ore:cropCotton>]);
 
 #######################
 ### removed recipes ###
