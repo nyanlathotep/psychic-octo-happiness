@@ -8,9 +8,7 @@ var DB = <ore:blockDiamond>;
 ##
 ##Pendant
 recipes.remove(<AlchBling:item.bauble.potion:*>);
-
-
-
+##
 ##########
 ## REGEN
 ##
@@ -19,7 +17,16 @@ recipes.addShaped(<AlchBling:item.bauble.potion:0>.withTag({id: 10, amp: 0}), [[
 ##
 ##Ring
 recipes.addShaped(<AlchBling:item.bauble.potion:1>.withTag({id: 10, amp: 0}), [[<ore:gemDiamond>, <ore:ingotUnstable>, null], [<ore:ingotUnstable>, <minecraft:nether_star:0>, <ore:ingotUnstable>], [null, <ore:ingotUnstable>, null]]);
-
+##
+#####
+## Upgrades
+##
+## T2 Pendant
+recipes.addShaped(<AlchBling:item.bauble.potion:0>.withTag({id: 10, amp: 1}), [[<minecraft:nether_star:0>, <minecraft:nether_star:0>,<minecraft:nether_star:0>], [DB, <AlchBling:item.bauble.potion:0>.onlyWithTag({id: 10, amp: 0}), DB], [DB, DB, DB]]);
+##
+## T2 Ring
+recipes.addShaped(<AlchBling:item.bauble.potion:1>.withTag({id: 10, amp: 1}), [[<minecraft:nether_star:0>, <minecraft:nether_star:0>,<minecraft:nether_star:0>], [DB, <AlchBling:item.bauble.potion:1>.onlyWithTag({id: 10, amp: 0}), DB], [DB, DB, DB]]);
+##
 ##########
 ## INVISIBILITY
 ##
