@@ -249,4 +249,4 @@ recipes.addShapeless(<harvestcraft:applepieItem> * 1, [<ore:toolBakeware>, <mine
 
 # mushroom stew
 recipes.remove(<minecraft:mushroom_stew>);
-recipes.addShapeless(<minecraft:mushroom_stew> * 1, [<ore:toolPot>, <ore:listAllmushroom> * 1, <ore:foodStock>]);
+recipes.addShapeless(<minecraft:mushroom_stew> * 1, [<ore:toolPot>, <ore:listAllmushroom> * 1, <ore:foodStock>, <minecraft:bowl>]);
