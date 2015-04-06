@@ -245,7 +245,7 @@ recipes.remove(<harvestcraft:epicbaconItem>);
 
 # pumpkin pie
 recipes.remove(<minecraft:pumpkin_pie>);
-recipes.addShapeless(<harvestcraft:applepieItem> * 1, [<ore:toolBakeware>, <minecraft:pumpkin> * 1, <minecraft:sugar> * 1, <ore:foodDough>]);
+recipes.addShapeless(<minecraft:pumpkin_pie> * 1, [<ore:toolBakeware>, <minecraft:pumpkin> * 1, <minecraft:sugar> * 1, <ore:foodDough>]);
 
 # mushroom stew
 recipes.remove(<minecraft:mushroom_stew>);
