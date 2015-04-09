@@ -6,4 +6,4 @@ recipes.removeShapeless(<ThermalFoundation:material:41> * 2, [<ore:dustCopper>, 
 #####
 ## adds amordrine recipe
 #####
-recipes.addShapeless(<Metallurgy:nether.dust:11> * 2, [<ore:dustPlatinum>, <ore:dustKalendrite>]);
+recipes.addShapeless(<Metallurgy:nether.dust:12> * 2, [<ore:dustPlatinum>, <ore:dustKalendrite>]);
