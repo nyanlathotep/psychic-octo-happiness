@@ -1,0 +1,2 @@
+recipes.remove(<ExtraUtilities:magnumTorch> * 1);
+recipes.addShaped(<ExtraUtilities:magnumTorch> * 1, [[null, <ExtraUtilities:chandelier:*> * 1, null], [<ExtraUtilities:chandelier:*> * 1, <ore:logWood>, <ExtraUtilities:chandelier:*> * 1], [<ExtraUtilities:chandelier:*> * 1, <ore:logWood>, <ExtraUtilities:chandelier:*> * 1]]);
