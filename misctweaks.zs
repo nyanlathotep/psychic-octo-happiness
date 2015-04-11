@@ -14,4 +14,4 @@ recipes.addShapeless(<addedhealthmechanics:ingredient:14>, [<minecraft:fish:3>, 
 
 # 
 recipes.remove(<minecraft:paper> * 2);
-recipes.addShaped(<minecraft:paper> * 2, [[null, <ore:dustWood>, null], [<ore:dustWood>, <ore:listAllwater> * 1, <ore:dustWood>], [null, <ore:dustWood>, null]]);
+recipes.addShaped(<minecraft:paper> * 2, [[null, <ore:dustWood>, null], [<ore:dustWood>, <ore:listAllwater>, <ore:dustWood>], [null, <ore:dustWood>, null]]);
