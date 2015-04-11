@@ -11,3 +11,7 @@ recipes.addShaped(<Metallurgy:utility.block:2> * 1, [[<ore:dustSaltpeter>, <ore:
 
 # pufferfish to blue extract 
 recipes.addShapeless(<addedhealthmechanics:ingredient:14>, [<minecraft:fish:3>, <ore:toolSaucepan>]);
+
+# 
+recipes.remove(<minecraft:paper> * 2);
+recipes.addShaped(<minecraft:paper> * 2, [[null, <ore:dustWood>, null], [<ore:dustWood>, <ore:listAllwater> * 1, <ore:dustWood>], [null, <ore:dustWood>, null]]);
