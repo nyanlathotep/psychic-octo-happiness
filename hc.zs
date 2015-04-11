@@ -250,3 +250,7 @@ recipes.addShapeless(<minecraft:pumpkin_pie> * 1, [<ore:toolBakeware>, <minecraf
 # mushroom stew
 recipes.remove(<minecraft:mushroom_stew>);
 recipes.addShapeless(<minecraft:mushroom_stew> * 1, [<ore:toolPot>, <ore:listAllmushroom> * 1, <ore:foodStock>, <minecraft:bowl>]);
+
+# pistachio baked salmon
+recipes.remove(<harvestcraft:pistachiobakedsalmonItem>);
+recipes.addShapeless(<harvestcraft:pistachiobakedsalmonItem> * 1, [<ore:toolBakeware>, <ore:cropPistachio>, <minecraft:fish:1> * 1]);
