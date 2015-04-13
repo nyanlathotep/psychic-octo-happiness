@@ -70,7 +70,7 @@ Pulverizer.addRecipe(1600, <ExtrabiomesXL:flower2:1>, <minecraft:dye:7> * 2, <ad
 
 ### lime dye recipes
 
-Pulverizer.addRecipe(1600, <ExtrabiomesXL:flower2:5>, <minecraft:dye:10> * 2);
+Pulverizer.addRecipe(1600, <ExtrabiomesXL:flower2:5>, <minecraft:dye:10> * 2, <addedhealthmechanics:ingredient:0>, 100);
 
 ### yellow dye recipes
 
